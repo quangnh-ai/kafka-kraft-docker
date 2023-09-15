@@ -4,7 +4,7 @@ metadata:
   name: kafka-config
   namespace: bigdata
 data:
-  SPRING_CONFIG_ADDITIONAL-LOCATION: /config/dev.yaml
+  SPRING_CONFIG_ADDITIONAL-LOCATION: /config/dev-pc.yaml
   AUTH_TYPE: "LOGIN_FORM"
   SPRING_SECURITY_USER_NAME: admin
   SPRING_SECURITY_USER_PASSWORD: admin
