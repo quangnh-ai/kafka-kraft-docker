@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kafka-config
+  namespace: bigdata
+data:
+  SPRING_CONFIG_ADDITIONAL-LOCATION: /config/dev.yaml
+  AUTH_TYPE: "LOGIN_FORM"
+  SPRING_SECURITY_USER_NAME: admin
+  SPRING_SECURITY_USER_PASSWORD: admin
+
+  REPLICAS: "2"
+  SERVICE: kafka-svc
+  NAMESPACE: bigdata
+  SHARE_DIR: /mnt/kafka
